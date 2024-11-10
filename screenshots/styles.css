@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.product-container{
+    width: 1080px;
+    border: 5px solid #333;
+    border-style: solid;
+    border-color: black;
+    background-color: white;
+    position: relative;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.sale-badge{
+    position: absolute;
+    top: -18px; /* Adjust this to make it sit on the border */
+    left: -27px; /* Adjust to align with border */
+    background-color: #D32F2F;
+    color: white;
+    padding: 5px 15px;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+.product-title {
+    text-align: center;
+    background-color: #eaf5f7;
+    padding: 10px;
+    margin-bottom: 0px;
+}
+.product-content{
+    width: auto;
+    height: 150px;
+}
+.divsecondpart{
+    width: auto; 
+    height: 100px;
+    border-style: dotted;
+    border-color: #333;
+    width: 33.33%; /* Adjusts width so three items fit in a row */
+    box-sizing: border-box; /* Ensures padding and border don't affect width */
+    padding: 10px;
+}
+.product-detail{
+    display: flex;
+    flex-wrap: wrap;
+   
+
+}
