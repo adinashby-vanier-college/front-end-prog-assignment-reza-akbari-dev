@@ -6,6 +6,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
+    line-height: 1.3;
 }
 .product-container{
     width: 1080px;
@@ -35,22 +36,101 @@ body {
     padding: 10px;
     margin-bottom: 0px;
 }
+.image{
+    margin: 0px 0px -6px -1px;
+}
 .product-content{
     width: auto;
     height: 150px;
 }
+/* Note Remove  */
 .divsecondpart{
     width: auto; 
     height: 100px;
-    border-style: dotted;
-    border-color: #333;
-    width: 33.33%; /* Adjusts width so three items fit in a row */
-    box-sizing: border-box; /* Ensures padding and border don't affect width */
-    padding: 10px;
+    flex: 1;  
+    padding-left: 20px;
 }
+
 .product-detail{
     display: flex;
     flex-wrap: wrap;
-   
-
 }
+.price-info {
+    display: flex;
+    flex-direction: column; /* Aligns elements vertically */
+    align-items: flex-start; /* Aligns items to the left */
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+.price_and_shipping{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.price{
+    font-size: 32px;
+    font-weight: bold;
+}
+.shipping{
+    font-size: 16px;
+    color: #90A4AE;
+}
+p{
+    font-size: 23px;
+}
+.more-info {
+    font-size: 20px;
+    color: black;
+    text-align: left; /* Ensures left alignment */
+    margin-top: 10px; /* Adjust as needed */
+}
+.color {
+    width: 30px;
+    height: 30px;
+}
+.color-options {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 15px;
+    gap: 20px;
+}
+.flex-container>div {
+    background-color: right;
+    color: blak;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+  .head-part_three{
+    margin-top:34px;
+    font-size: 22px;
+    padding-left: 20px;
+  }
+  .list{
+    font-size: 22px;
+  }
+  .sublist{
+    list-style: square;
+    margin-bottom: 10px;
+  }
+  .add-to-cart {
+    width: 100%;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 26px;
+    cursor: pointer;
+}
+  .add-to-cart:hover {
+    background-color: #333;
+}
+
+
+
+
+
+
