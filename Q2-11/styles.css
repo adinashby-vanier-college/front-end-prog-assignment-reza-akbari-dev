@@ -1,0 +1,104 @@
+body{
+  font-family: "Montserrat";
+  text-align: center;
+
+}
+.format_section1{
+  width: 60%;
+  height: 400px;
+  border-style: solid;
+  border-color: black;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #F06292;
+}
+.format_section2{
+  width: 60%;
+  height: 400px;
+  border-style: solid;
+  border-color: black;
+  margin-right: auto;
+  margin-left: auto;
+}
+.logo{
+  color: white;
+  font-size: 3rem;
+  font-family:Arial, Helvetica, sans-serif;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10%;
+}
+.nav_Three_element{
+  margin-right: 1.5rem;
+}
+.nav-links{
+  font-size: 1.25rem;
+  color: #eeeeeea6;
+  text-decoration: none;
+}
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 10%;
+}
+.text-container h2 {
+  font-size: 2.5em;
+    margin-bottom: 20px;
+    width: 60%;
+    color: white;
+    text-align: left;
+    margin-top: -5%;
+    font-weight: 120;
+}
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+.btn {
+  background-color: white;
+  color: #f85a6a;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1em;
+  text-align: center;
+}
+.apple_Icon{
+  width: 0.1rem;
+  height: auto;
+  text-decoration: none;
+  color: white;
+  background-color: black;
+}
+.google_Icon{
+  width: 0.1rem;
+  height: auto;
+}
+.Download_button{
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-flex;
+  border-style: solid;
+  border-color: white;
+  font-size: 1.5rem;
+  text-decoration: none;
+  border-radius: 10%;
+}
+.Download_button_apple{
+  background-color: black;
+  color: white;
+  
+}
+.Download_button_google{
+ 
+}
