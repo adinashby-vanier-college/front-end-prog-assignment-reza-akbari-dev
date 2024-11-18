@@ -1,0 +1,83 @@
+@font-face {
+    font-family:"brand";
+    src: url("fa-regular-400.woff2") format(woff2);
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    font-family:'Times New Roman', Times, serif;
+}
+.container{
+width: 1080px;
+margin-right: auto;
+margin-left: auto;
+margin-top: 5rem;
+text-align: center;
+
+}
+.section-head{
+margin-bottom: 7%;
+}
+.title{
+    margin-bottom: 1rem;
+    font-size: 3rem;
+
+}
+.head-text{
+font-family: "brand",sans-serif ;
+font-size: 1rem;
+opacity: 0.5;
+}
+.products{
+    
+    width: 22%;
+    height: auto;
+    border-style: solid;
+    border-color: gray;
+    margin-bottom: auto;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+.row p{
+    font-size: 2.5rem;
+}
+.row h2{
+    background-color: #b5c4c4d6;
+    border-style: solid;
+    border-color: gray;
+    padding: 3%;
+    font-weight: 100;
+    margin: -2px -2px 0 -2px ;
+}
+ul{
+    list-style: none;
+    padding: 0%;
+    margin: 1.5rem 0;
+}
+ul li{
+    margin-bottom: 1rem;
+    color: black;
+    opacity:0.7;
+    font-family: "brand",sans-serif ;
+    font-size: 0.8rem;
+}
+.sign-up{
+    margin-bottom: 4%;
+    width: 85%;
+    padding: 2%;
+    border-radius: 3px;
+    font-size: 0.9rem;
+    opacity: 0.7;
+}
+.free{
+    background: none;
+}
+.Payable{
+    background-color: black;
+    color: white;
+}
